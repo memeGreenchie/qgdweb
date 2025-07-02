@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="QuantumGround Team">
+        <meta name="description" content="QuantumGround – AI-Powered Prompt-to-App Web3 Builder">
+    
+        <!-- ======== Page title ============ -->
+        <title>QuantumGround – Build Web3 with Just a Prompt</title>
+    
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/fabi.png">
+    
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+    
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+    
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+    
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+    
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/icomon.css">
+    
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="Q" class="letters-loading">
+                        Q
+                    </span>
+                    <span data-text-preloader="U" class="letters-loading">
+                        U
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="U" class="letters-loading">
+                        U
+                    </span>
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
+                    </span>
+                    <span data-text-preloader="G" class="letters-loading">
+                        G
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
+                    <span data-text-preloader="U" class="letters-loading">
+                        U
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="D" class="letters-loading">
+                        D
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- GT Back To Top Start -->
+        <button id="gt-back-top" class="gt-back-to-top show">
+           <i class="fa-solid fa-arrow-up"></i>
+        </button>
+
+        <!-- GT MouseCursor Start -->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"></div>
+
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/home-1/logo/black-logo.png" alt="QuantumGround Logo">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text d-none d-xl-block">
+                            QuantumGround is an AI-powered platform that lets you build Web3 apps from a simple prompt.
+                            Generate, customize, and deploy smart contracts with zero code.
+                        </p>
+                        <div class="mobile-menu fix mb-3"></div>
+                        <div class="offcanvas__contact">
+                            <!-- <h4>Contact Info</h4>
+                            <ul>
+                                
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fab fa-telegram"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="https://t.me/qgdcrew" target="_blank">@qgdcrew</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="https://x.com/qgdaispace" target="_blank">@qgdaispace</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fa fa-robot"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="https://t.me/quantumg_bot" target="_blank">@quantumg_bot</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="mailto:official@quantum-g.space">official@quantum-g.space</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="d-flex align-items-center">
+                                    <div class="offcanvas__contact-icon mr-15">
+                                        <i class="fa-solid fa-link"></i>
+                                    </div>
+                                    <div class="offcanvas__contact-text">
+                                        <a href="https://bscscan.com/token/0x0000000000000000000000000000000000000000" target="_blank">View on
+                                            BscScan</a>
+                                    </div>
+                                </li>
+
+                            </ul> -->
+                            <div class="header-button mt-4">
+        
+                            </div>
+                            <a href="텔레" class="gt-theme-btn w-100">
+                                <span class="shotfit-btn__text">GET IN TOUCH <i class="fa-regular fa-arrow-up-right"></i></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                            </a>
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="트윗"><i class="fab fa-twitter"></i></a>
+                                <a href="텔레"><i class="fab fa-telegram-plane"></i></a>
+                                <a href="텔레봇"> <i class="fa fa-play"></i></a>
+                                <a href="백서"><i class="far fa-file-alt"></i></a>
+                                <a href="스캔"><i class="fas fa-link"></i></a>
+                                <a href="스캔"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header Section Start -->
+        <header class="header-section-2">
+            <div class="header-top-section-2 d-none d-xl-block">
+                <div class="container-fluid">
+                    <div class="header-top-wrapper-2">
+                        
+                        <ul class="gt-top-left">
+                            <li>
+                                
+                                <a href="트윗"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                
+                                <a href="텔레"><i class="fab fa-telegram-plane"></i></a>
+                            </li>
+                            <li>
+                                
+                               <a href="백서"><i class="far fa-file-alt"></i></a>
+                            </li>
+                            <li>
+                                
+                                <a href="스캔"><i class="fas fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="header-sticky" class="header-2" >
+                <div class="container-fluid">
+                    <div class="mega-menu-wrapper">
+                        <div class="header-main">
+                            <div class="logo">
+                                <a href="#home" class="header-logo1">
+                                    <img src="assets/img/home-1/logo/black-logo.png" alt="QuantumGround Logo">
+                                </a>
+                            </div>
+        
+                            <div class="mean__menu-wrapper">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#features">Features</a></li>
+                                            <li><a href="#token">Token</a></li>
+                                            <li><a href="#roadmap">Roadmap</a></li>
+                                            <li><a href="#team">Team</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+        
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                
+                                <a href="#" class="main-header__search search-toggler">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                </a>
+        
+                                
+                                <a href="텔레봇" class="cart-icon">
+                                    <i class="fa fa-play"></i>
+                                </a>
+        
+                                <a href="#" class="gt-theme-btn">
+                                    <span class="shotfit-btn__text">JOIN BETA <i
+                                            class="fa-regular fa-arrow-up-right"></i></span>
+                                    <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                    <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                    <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                    <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                    <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                </a>
+        
+                                <div class="header__hamburger d-xl-block my-auto">
+                                    <div class="sidebar__toggle">
+                                        <div class="header-bar">
+                                            <i class="fa-regular fa-bars-staggered"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- GT Search Start -->
+        <div class="search-popup" style="position: fixed; inset: 0; background: rgba(0,0,0,0.8);">
+            <div class="search-popup__overlay search-toggler" style="position: absolute; inset: 0;"></div>
+            <div class="search-popup__content"
+                style="overflow-y: auto; max-height: 100vh; padding: 20px; position: relative; background: rgba(255, 255, 255, 0); z-index: 10000;">
+        
+                <button onclick="document.querySelector('.search-popup').style.display='none';"
+                    style="position: fixed; top: 10px; right: 10px; z-index: 10001; background: transparent; border: none; font-size: 28px; color: #333;">
+                    <i class="fa fa-times"></i>
+                </button>
+                <!-- INSERT CONTENT START -->
+        
+                <div class="card-grid">
+        
+                    <!-- Card 1 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 01</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-gamepad" style="color: white;"></i></div>
+                                    <h3>PixelWarfare</h3>
+                                </div>
+                                <p>Real-time PvP NFT battle game with token rewards and leaderboard tracking.<br><strong>Creator:</strong>
+                                    Alice N.</p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 02</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-gamepad" style="color: white;"></i></div>
+                                    <h3>RoboRunner</h3>
+                                </div>
+                                <p>On-chain endless runner game powered by QGD with play-to-earn logic.<br><strong>Creator:</strong> Jae H.
+                                </p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 03</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-chart-line" style="color: white;"></i></div>
+                                    <h3>DeFiChef</h3>
+                                </div>
+                                <p>Yield farming dashboard with auto-compound and real-time APR AI tips.<br><strong>Creator:</strong> Marcus
+                                    T.</p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 04</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-sitemap" style="color: white;"></i></div>
+                                    <h3>DAOBoard</h3>
+                                </div>
+                                <p>Fully generated DAO dashboard with on-chain voting and treasury logic.<br><strong>Creator:</strong>
+                                    Sophia K.</p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 5 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 05</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-ticket" style="color: white;"></i></div>
+                                    <h3>Q-Ticket</h3>
+                                </div>
+                                <p>Web3 event ticketing platform with dynamic QR NFTs and resale royalties.<br><strong>Creator:</strong>
+                                    Aaron V.</p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 6 -->
+                    <div class="responsive-card">
+                        <div class="image-area"><span>Image</span></div>
+                        <div style="display: flex;">
+                            <div class="side-label">Service _ 06</div>
+                            <div class="card-body">
+                                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                                    <div class="icon-box"><i class="fa fa-puzzle-piece" style="color: white;"></i></div>
+                                    <h3>SynthPuzzle</h3>
+                                </div>
+                                <p>AI-generated logic puzzle game where users can remix levels and earn tokens.<br><strong>Creator:</strong>
+                                    Lina K.</p>
+                                <a href="텔레봇">LAUNCH <i class="fa fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <!-- INSERT CONTENT END -->
+            </div>
+        </div>
+
+    <!-- GT Hero Section Start -->
+    <section class="gt-hero-section fix gt-hero-2 bg-cover"
+        style="background-image: url('assets/img/home-2/hero/hero-bg.jpg');">
+        <div class="container-fluid">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="gt-hero-image">
+                        <img src="assets/img/home-2/hero/hero.png" alt="img" class="wow img-custom-anim-left"
+                            data-wow-duration="1.3s" data-wow-delay="0.3s">
+                        <div class="gt-hero-shape">
+                            <img src="assets/img/home-2/hero/shape.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2">
+                    <div class="gt-hero-content">
+                        <h4 class="wow fadeInUp" data-wow-delay=".3s"><img src="assets/img/fabi.png"> WELCOME TO QUANTUMGROUND
+                        </h4>
+                        <h1 class="wow fadeInUp" data-wow-delay=".5s">
+                            BUILD WEB3 WITH JUST A PROMPT
+                        </h1>
+                        <p class="wow fadeInUp" data-wow-delay=".3s">
+                            QuantumGround lets you create and deploy fully functional Web3 applications using natural
+                            language. No code, no limits — just describe your idea, and we’ll bring it to life.
+                        </p>
+                        <div class="gt-hero-button wow fadeInUp" data-wow-delay=".5s">
+                            <a href="플레이" class="gt-theme-btn">
+                                <span class="shotfit-btn__text">TRY TELEGRAM APP <i
+                                        class="fa-regular fa-arrow-up-right"></i></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                            </a>
+                            <a href="백서" class="gt-theme-btn style-border">
+                                <span class="shotfit-btn__text">READ WHITEPAPER <i
+                                        class="fa-regular fa-arrow-up-right"></i></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- GT Service Section Start -->
+        <section class="gt-service-section-2 section-padding fix">
+            <div class="gt-service-sahpe">
+                <img src="assets/img/home-2/shape.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-section-title mb-0 text-center">
+                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">F E A T U R E S<img src="assets/img/fabi.png"></h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Build Smarter, Deploy Faster
+                    </h2>
+                </div>
+                <div class="row g-0">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="gt-services-box-item">
+                            <h2 class="gt-number">01</h2>
+                            <h3>
+                                <a href="백서">
+                                    Prompt-to-App Builder
+                                </a>
+                            </h3>
+                            <p>
+                                Describe your app idea in plain language. Our AI agent interprets it and builds your smart
+                                contracts and frontend instantly.
+                            </p>
+                            <a href="백서" class="gt-link-btn" style="color: skyblue;">READ MORE <i class="fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="gt-services-box-item gt-active">
+                            <h2 class="gt-number">02</h2>
+                            <h3>
+                                <a href="백서">
+                                    Ground Module System
+                                </a>
+                            </h3>
+                            <p>
+                                Use audited plug-and-play modules to add features like NFTs, staking, DAOs, and more — no coding
+                                required.
+                            </p>
+                            <a href="백서" class="gt-link-btn" style="color: skyblue;">READ MORE <i class="fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="gt-services-box-item">
+                            <h2 class="gt-number">03</h2>
+                            <h3>
+                                <a href="백서">
+                                    Deploy in Minutes
+                                </a>
+                            </h3>
+                            <p>
+                                Launch your dApp directly to Binance Smart Chain with one click. Verified contracts, full UI,
+                                and on-chain functionality included.
+                            </p>
+                            <a href="백서" class="gt-link-btn" style="color: skyblue;">READ MORE <i class="fa-regular fa-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- GT About Section Start -->
+        <section class="gt-about-section section-padding fix bg-cover"
+            style="background-image: url(assets/img/home-2/about/bg.jpg);">
+            <div class="container">
+                <div class="gt-about-wrapper-2">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="gt-about-content">
+                                <div class="gt-section-title mb-0">
+                                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">A B O U T U S</h6>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Built for Creators, Powered by AI
+                                    </h2>
+                                </div>
+                                <p class="gt-text wow fadeInUp" data-wow-delay=".5s">
+                                    QuantumGround empowers anyone to launch decentralized applications using natural language.
+                                    From idea to deployment, our AI agent handles it all—turning your prompts into
+                                    production-ready smart contracts and full-stack apps.
+                                </p>
+                                <div class="gt-about-main-item wow fadeInUp" data-wow-delay=".5s" style="border-bottom: 0px;">
+                                    <div class="gt-about-item">
+                                        <div class="gt-number-item">
+                                            <h4>01</h4>
+                                        </div>
+                                        <div class="gt-content">
+                                            <h5>No Code Required</h5>
+                                            <p>Create Web3 applications without writing a single line of code.</p>
+                                        </div>
+                                    </div>
+                                    <div class="gt-about-item">
+                                        <div class="gt-number-item">
+                                            <h4>02</h4>
+                                        </div>
+                                        <div class="gt-content">
+                                            <h5>AI Agent Builder</h5>
+                                            <p>AI interprets, assembles, and deploys smart contracts on your behalf.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="wow fadeInUp" data-wow-delay=".3s">
+                                    "QuantumGround made it possible for me to launch a tokenized app in minutes. I never thought
+                                    Web3 could be this easy."
+                                </h6>
+                                <h5 class="text wow fadeInUp" data-wow-delay=".5s">Leo M <span>Early Creator</span></h5>
+                                <div class="gt-about-button wow fadeInUp" data-wow-delay=".3s">
+                                    <a href="백서" class="gt-theme-btn">
+                                        <span class="shotfit-btn__text">READ WHITEPAPER <i
+                                                class="fa-regular fa-arrow-up-right"></i></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="gt-about-image">
+                                <img src="assets/img/home-2/about/about-01.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GT Traning Section Start -->
+        <section class="gt-traning-section-2 section-padding fix bg-cover"
+            style="background-image: url(assets/img/home-2/traning/traning-bg.jpg);">
+            <div class="container">
+                <div class="gt-section-title mb-0 text-center">
+                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">U P D A T E S & F E A T U R E S<img src="assets/img/fabi.png"></h6>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
+                        Upcoming Modules & Deploy Tools
+                    </h2>
+                </div>
+                <div class="array-buttons">
+                    <button class="array-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="array-next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="swiper gt-training-slider">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="gt-traning-card-item-2">
+                                <div class="gt-traning-image">
+                                    <!-- <img src="assets/img/home-2/traning/traning-1.png" alt="img"> -->
+                                    <div class="gt-arrow-icon">
+                                        <a href="백서" class="gt-arrow"><i class="fa-regular fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gt-training-content">
+                                    <h3>
+                                        <a href="백서">Token Generator</a>
+                                    </h3>
+                                    <p>
+                                        Instantly create your own BEP-20 or ERC-20 token with AI. Define supply, vesting, and metadata using a
+                                        simple prompt.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="gt-traning-card-item-2">
+                                <div class="gt-traning-image">
+                                    <!-- <img src="assets/img/home-2/traning/traning-2.jpg" alt="img"> -->
+                                    <div class="gt-arrow-icon">
+                                        <a href="백서" class="gt-arrow"><i class="fa-regular fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gt-training-content">
+                                    <h3>
+                                        <a href="백서">DAO Voting System</a>
+                                    </h3>
+                                    <p>
+                                        Use prompt-based AI to generate governance smart contracts and deploy full DAO
+                                        frameworks instantly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="gt-traning-card-item-2">
+                                <div class="gt-traning-image">
+                                    <!-- <img src="assets/img/home-2/traning/traning-3.png" alt="img"> -->
+                                    <div class="gt-arrow-icon">
+                                        <a href="백서" class="gt-arrow"><i class="fa-regular fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gt-training-content">
+                                    <h3>
+                                        <a href="백서">Multichain Deployer</a>
+                                    </h3>
+                                    <p>
+                                        Deploy your app to multiple EVM chains like BSC, Polygon, or Arbitrum using one-click
+                                        integration. Very Easy way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GT Training Section Start -->
+        <section class="gt-training-schedule-section fix section-padding" style="background-image: url('assets/img/home-2/hero/hero-bg2.jpg');">
+            <div class="container">
+                <div class="gt-section-title-area">
+                    <div class="gt-section-title">
+                        <h6 class="wow fadeInUp" style="color: #ccc;"><img src="assets/img/fabi.png">T O K E N O M I C S</h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color: #ccc;" >
+                            QGD Allocation & Vesting
+                        </h2>
+                    </div>
+                    <a href="백서" class="gt-theme-btn wow fadeInUp" data-wow-delay=".5s">
+                        <span class="shotfit-btn__text">VIEW WHITEPAPER <i class="fa-regular fa-arrow-up-right"></i></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                    </a>
+                </div>
+                <div class="table-responsive">
+                    <table class="table schedule_table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Category</th>
+                                <th scope="col">Allocation</th>
+                                <th scope="col">Token Amount</th>
+                                <th scope="col">Vesting Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ecosystem Growth</td>
+                                <td>35%</td>
+                                <td>3,500,000,000 QGD</td>
+                                <td>Linear over 5 years</td>
+                            </tr>
+                            <tr>
+                                <td>Community Rewards</td>
+                                <td>20%</td>
+                                <td>2,000,000,000 QGD</td>
+                                <td>Usage-based; continuous airdrops</td>
+                            </tr>
+                            <tr>
+                                <td>Team & Advisors</td>
+                                <td>15%</td>
+                                <td>1,500,000,000 QGD</td>
+                                <td>12-month cliff, 36-month vesting</td>
+                            </tr>
+                            <tr>
+                                <td>Development Fund</td>
+                                <td>15%</td>
+                                <td>1,500,000,000 QGD</td>
+                                <td>Rolling release over 24 months</td>
+                            </tr>
+                            <tr>
+                                <td>Private Sale</td>
+                                <td>10%</td>
+                                <td>1,000,000,000 QGD</td>
+                                <td>Custom vesting per agreement</td>
+                            </tr>
+                            <tr>
+                                <td>Liquidity & Listing</td>
+                                <td>5%</td>
+                                <td>500,000,000 QGD</td>
+                                <td>Initial unlock at TGE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+         <!-- GT Bmi Section Start -->
+        <section class="gt-bmi-section-2 section-padding fix bg-cover"
+            style="background-image: url(assets/img/home-2/bmi-bg.jpg);">
+            <div class="gt-left-shape">
+                <img src="assets/img/home-2/shape-2.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-bmi-wrapper-2">
+                    <div class="row g-4 align-items-center">
+                        <!-- LEFT: App Usage Instructions -->
+                        <div class="col-lg-6">
+                            <div class="gt-bmi-content">
+                                <div class="gt-section-title mb-0">
+                                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">H O W &nbsp; T O &nbsp; U S E</h6>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Start Building with QuantumGround
+                                    </h2>
+                                </div>
+                                <p class="gt-text wow fadeInUp" data-wow-delay=".3s">
+                                    QuantumGround allows anyone to build Web3 applications using natural language. No code, no
+                                    technical barrier—just describe your idea, and we’ll take care of the rest.
+                                </p>
+                                <div class="gt-bmi-list-item wow fadeInUp" data-wow-delay=".5s">
+                                    <ul style="list-style: none; padding: 0; margin: 0; width: 100%;">
+                                        <li style="display: flex; justify-content: space-between; border-bottom: 1px solid #ccc; padding: 10px 0;">
+                                            <span>Step 1</span>
+                                            <span>Open Telegram App</span>
+                                        </li>
+                                        <li style="display: flex; justify-content: space-between; border-bottom: 1px solid #ccc; padding: 10px 0;">
+                                            <span>Step 2</span>
+                                            <span>Describe your idea using a simple prompt</span>
+                                        </li>
+                                        <li style="display: flex; justify-content: space-between; border-bottom: 1px solid #ccc; padding: 10px 0;">
+                                            <span>Step 3</span>
+                                            <span>AI agent will generate and deploy your app</span>
+                                        </li>
+                                        <li style="display: flex; justify-content: space-between; border-bottom: 1px solid #ccc; padding: 10px 0;">
+                                            <span>Step 4</span>
+                                            <span>Remix, earn, or upgrade your modules</span>
+                                        </li>
+                                    </ul>
+                                    <h5 style="margin-top: 16px;">Get Started Instantly — No Coding Required</h5>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- RIGHT: User Info + Start Button -->
+                        <div class="col-lg-6">
+                            <div class="gt-bmi-book-seat">
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Try It Now:</h2>
+                                <form action="텔레봇">
+                                    <div class="row">
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="form-clt">
+                                                <input type="text" placeholder="Your Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <input type="email" placeholder="Your Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="form-clt">
+                                                <input type="text" placeholder="Telegram ID">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <select class="single-select w-100">
+                                                    <option>Project Type</option>
+                                                    <option>NFT Marketplace</option>
+                                                    <option>Staking Pool</option>
+                                                    <option>DAO / Governance</option>
+                                                    <option>DeFi Mini App</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="form-clt">
+                                                <textarea placeholder="Describe your idea..." rows="3"
+                                                    style="width: 100%; border: 1px solid #ddd; padding: 10px; border-radius: 5px;"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                            <div class="form-clt">
+                                                <textarea placeholder="Describe your plan..." rows="3"
+                                                    style="width: 100%; border: 1px solid #ddd; padding: 10px; border-radius: 5px;"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="form-clt">
+                                                <button type="submit" class="gt-theme-btn w-100">
+                                                    <span class="shotfit-btn__text">LAUNCH WITH AI <i
+                                                            class="fa-regular fa-arrow-up-right"></i></span>
+                                                    <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                                    <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                                    <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                                    <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                                    <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- Gt-Why-Choose-ust Section Start -->
+        <section class="gt-why-choose-us-section section-padding header-bg fix">
+            <div class="gt-dot-shape">
+                <img src="assets/img/home-2/choose-us/dot.png" alt="img">
+            </div>
+            <div class="gt-right-shape float-bob-y">
+                <img src="assets/img/home-2/choose-us/zim.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-choose-us-wrapper-2">
+                    <div class="row g-4">
+                        <!-- Left: Image + Video -->
+                        <div class="col-lg-6">
+                            <div class="gt-choose-us-image">
+                                <img src="assets/img/home-2/choose-us/choose-us-1.png" alt="img"
+                                    class="wow img-custom-anim-right" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                                <div class="gt-circle-image">
+                                    <img src="assets/img/home-2/choose-us/circle-image.png" alt="img">
+                                </div>
+                                <div class="gt-left-shape">
+                                    <img src="assets/img/home-2/choose-us/shape-1.png" alt="img">
+                                </div>
+                                <div class="gt-right-shape">
+                                    <img src="assets/img/home-2/choose-us/shape-2.png" alt="img">
+                                </div>
+                                <div class="video-button">
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Right: Content -->
+                        <div class="col-lg-6">
+                            <div class="gt-choose-us-content">
+                                <div class="gt-section-title mb-0">
+                                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">WHY CHOOSE US</h6>
+                                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
+                                        No Code. No Limits. All Web3.
+                                    </h2>
+                                </div>
+                                <p class="gt-text wow fadeInUp" data-wow-delay=".5s">
+                                    QuantumGround is not just another builder — it's an AI-native Agentic IDE.
+                                    We combine natural language input with modular smart contract deployment to turn your ideas
+                                    into dApps instantly.
+                                    Whether you're launching an NFT, a DAO, or a staking pool — we automate it.
+                                </p>
+                                <div class="gt-choose-us-item">
+                                    <div class="gt-choose-us-icon-item wow fadeInUp" data-wow-delay=".3s">
+                                        
+                                        <div class="gt-content">
+                                            <h4>AI-Powered Generation</h4>
+                                            <p>From prompt to contract — generated, audited, and deployed by AI.</p>
+                                        </div>
+                                    </div>
+                                    <div class="gt-choose-us-icon-item wow fadeInUp" data-wow-delay=".5s">
+                                        
+                                        <div class="gt-content">
+                                            <h4>Modular Ground Dev System</h4>
+                                            <p>Drag-and-deploy reusable modules: NFT, DAO, token launch, and more.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="gt-choose-us-button wow fadeInUp" data-wow-delay=".3s">
+                                    <a href="플레이" class="gt-theme-btn">
+                                        <span class="shotfit-btn__text">TRY MINI APP <i
+                                                class="fa-regular fa-arrow-up-right"></i></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                    </a>
+                                    <a href="백서" class="gt-theme-btn style-border">
+                                        <span class="shotfit-btn__text">READ WHITEPAPER <i
+                                                class="fa-regular fa-arrow-up-right"></i></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GT Team Section Start -->
+        <section class="gt-team-section-2 section-padding fix">
+            <div class="gt-team-shape">
+                <img src="assets/img/home-2/team/zim-shape.png" alt="img">
+            </div>
+            <div class="gt-left-shape">
+                <img src="assets/img/home-2/team/shape.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-section-title text-center">
+                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">O U R &nbsp; T E A M<img src="assets/img/fabi.png"></h6>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Meet the Builders Behind QuantumGround
+                    </h2>
+                </div>
+                <div class="gt-team-wrapper">
+                    <!-- Team Member 1 -->
+                    <div class="team-box-img-2 wow fadeInUp" data-wow-delay=".2s">
+                        <img src="assets/img/home-2/team/team-01.png" alt="Carter Moore">
+                        <div class="content">
+                            <h3><a href="#">Carter Moore</a></h3>
+                            <p>Chief Executive Officer</p>
+                        </div>
+                        <div class="gt-social-profile">
+                            <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                            <ul>
+                                <li><a href="https://x.com/qgdaispace"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/qgdcrew"><i class="fa-brands fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- Team Member 2 -->
+                    <div class="team-box-img-2 wow fadeInUp" data-wow-delay=".4s">
+                        <img src="assets/img/home-2/team/team-02.png" alt="Elena Grant">
+                        <div class="content">
+                            <h3><a href="#">Elena Grant</a></h3>
+                            <p>Head of Product</p>
+                        </div>
+                        <div class="gt-social-profile">
+                            <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                            <ul>
+                                <li><a href="https://x.com/qgdaispace"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/qgdcrew"><i class="fa-brands fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- Team Member 3 -->
+                    <div class="team-box-img-2 active wow fadeInUp" data-wow-delay=".6s">
+                        <img src="assets/img/home-2/team/team-03.png" alt="Julian Clarke">
+                        <div class="content">
+                            <h3><a href="#">Julian Clarke</a></h3>
+                            <p>Chief Technology Officer</p>
+                        </div>
+                        <div class="gt-social-profile">
+                            <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                            <ul>
+                                <li><a href="https://x.com/qgdaispace"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/qgdcrew"><i class="fa-brands fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- Team Member 4 -->
+                    <div class="team-box-img-2 wow fadeInUp" data-wow-delay=".8s">
+                        <img src="assets/img/home-2/team/team-04.png" alt="Samantha Lowe">
+                        <div class="content">
+                            <h3><a href="#">Samantha Lowe</a></h3>
+                            <p>Community & Growth Lead</p>
+                        </div>
+                        <div class="gt-social-profile">
+                            <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                            <ul>
+                                <li><a href="https://x.com/qgdaispace"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/qgdcrew"><i class="fa-brands fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- Team Member 5 -->
+                    <div class="team-box-img-2 wow fadeInUp" data-wow-delay=".9s">
+                        <img src="assets/img/home-2/team/team-05.png" alt="Miles Dupont">
+                        <div class="content">
+                            <h3><a href="#">Miles Dupont</a></h3>
+                            <p>Head of Partnerships</p>
+                        </div>
+                        <div class="gt-social-profile">
+                            <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
+                            <ul>
+                                <li><a href="https://x.com/qgdaispace"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/qgdcrew"><i class="fa-brands fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GT Portfolio Section Start -->
+        <section class="gt-portfolio-section section-padding fix section-bg-2">
+            <div class="container">
+                <div class="gt-section-title-area">
+                    <div class="gt-section-title">
+                        <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">U S E R &nbsp; A P P S</h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            Built with QuantumGround
+                        </h2>
+                    </div>
+                    <a href="텔레봇" class="gt-theme-btn wow fadeInUp" data-wow-delay=".5s">
+                        <span class="shotfit-btn__text">LAUNCH IN TELEGRAM <i class="fa-regular fa-arrow-up-right"></i></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Project 1: Game -->
+                        <div class="gt-portfolio-card-item-2 wow img-custom-anim-left" data-wow-duration="1.3s"
+                            data-wow-delay="0.3s">
+                            <div class="gt-portfolio-image">
+                                <img src="assets/img/home-2/portfolio/portfolio-1.jpg" alt="img">
+                            </div>
+                            <div class="gt-portfolio-content">
+                                <div class="gt-content">
+                                    <p>PixelWarfare — Creator: Alice N.</p>
+                                    <h3><a href="텔레봇">Real-time PvP NFT Battle Game</a></h3>
+                                </div>
+                                <h2 class="gt-number">01</h2>
+                            </div>
+                        </div>
+        
+                        <!-- Project 2: Game -->
+                        <div class="gt-portfolio-card-item-2 mt-3 wow img-custom-anim-left" data-wow-duration="1.3s"
+                            data-wow-delay="0.3s">
+                            <div class="gt-portfolio-image">
+                                <img src="assets/img/home-2/portfolio/portfolio-2.jpg" alt="img">
+                            </div>
+                            <div class="gt-portfolio-content">
+                                <div class="gt-content">
+                                    <p>RoboRunner — Creator: Jae H.</p>
+                                    <h3><a href="텔레봇">On-chain Endless Runner Game</a></h3>
+                                </div>
+                                <h2 class="gt-number">02</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Project 3: Application -->
+                        <div class="gt-portfolio-card-item-2 wow img-custom-anim-right" data-wow-duration="1.3s"
+                            data-wow-delay="0.3s">
+                            <div class="gt-portfolio-image">
+                                <img src="assets/img/home-2/portfolio/portfolio-3.jpg" alt="img">
+                            </div>
+                            <div class="gt-portfolio-content">
+                                <div class="gt-content">
+                                    <p>DeFiChef — Creator: Marcus T.</p>
+                                    <h3><a href="텔레봇">Yield Farming Interface with AI</a></h3>
+                                </div>
+                                <h2 class="gt-number">03</h2>
+                            </div>
+                        </div>
+        
+                        <!-- Project 4: Application -->
+                        <div class="gt-portfolio-card-item-2 mt-3 wow img-custom-anim-right" data-wow-duration="1.3s"
+                            data-wow-delay="0.3s">
+                            <div class="gt-portfolio-image">
+                                <img src="assets/img/home-2/portfolio/portfolio-4.jpg" alt="img">
+                            </div>
+                            <div class="gt-portfolio-content">
+                                <div class="gt-content">
+                                    <p>DAOBoard — Creator: Sophia K.</p>
+                                    <h3><a href="텔레봇">Prompt-to-DAO Voting Dashboard</a></h3>
+                                </div>
+                                <h2 class="gt-number">04</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- GT Testimonial Section Start -->
+        <section class="gt-testimonial-section-2 section-padding fix bg-cover"
+            style="background-image: url(assets/img/home-2/testimonial/bg.jpg);">
+            <div class="gt-client-1">
+                <img src="assets/img/home-2/testimonial/client-1.png" alt="img">
+            </div>
+            <div class="gt-client-2">
+                <img src="assets/img/home-2/testimonial/client-2.png" alt="img">
+            </div>
+            <div class="gt-client-3">
+                <img src="assets/img/home-2/testimonial/client-3.png" alt="img">
+            </div>
+            <div class="gt-client-4">
+                <img src="assets/img/home-2/testimonial/client-4.png" alt="img">
+            </div>
+            <div class="gt-client-5">
+                <img src="assets/img/home-2/testimonial/client-5.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-section-title mb-0 text-center">
+                    <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">R O A D M A P<img src="assets/img/fabi.png"></h6>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
+                        QuantumGround Development Timeline
+                    </h2>
+                </div>
+                <div class="gt-testimonial-wrapper-2">
+                    <div class="row g-4 align-items-center">
+                        <!-- Left: Optional Roadmap Graphic -->
+                        <div class="col-xxl-4 col-xl-5 col-lg-5">
+                            <div class="swiper swiper-image">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="th-testimonial-image">
+                                            <img src="assets/img/home-2/testimonial/testimonial-1.jpg" alt="Q3 Launch">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="th-testimonial-image">
+                                            <img src="assets/img/home-2/testimonial/testimonial-2.jpg" alt="Web IDE">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="th-testimonial-image">
+                                            <img src="assets/img/home-2/testimonial/testimonial-3.jpg" alt="Governance">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Right: Roadmap Slide Content -->
+                        <div class="col-xxl-8 col-xl-7 col-lg-7">
+                            <div class="gt-testimonial-card-item">
+                                <div class="swiper gt-testimonial-slider">
+                                    <div class="swiper-wrapper">
+                                        <!-- Q3 2024 -->
+                                        <div class="swiper-slide">
+                                            <div class="gt-testimonial-content">
+                                                <div class="gt-star"><strong>Q3 2024</strong></div>
+                                                <p>
+                                                    • Telegram Mini-App Beta Launch<br>
+                                                    • BSC Testnet integration<br>
+                                                    • Prompt-to-App base flow<br>
+                                                    • Creator feedback onboarding
+                                                </p>
+                                                <div class="gt-client-info">
+                                                    <h4>Phase 1</h4>
+                                                    <span>Testnet & Community Pilot</span>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <!-- Q4 2024 -->
+                                        <div class="swiper-slide">
+                                            <div class="gt-testimonial-content">
+                                                <div class="gt-star"><strong>Q4 2024</strong></div>
+                                                <p>
+                                                    • Web IDE Launch<br>
+                                                    • Mainnet deployment (BSC)<br>
+                                                    • Ground Module Marketplace Alpha<br>
+                                                    • QGD token utility live
+                                                </p>
+                                                <div class="gt-client-info">
+                                                    <h4>Phase 2</h4>
+                                                    <span>Mainnet Expansion</span>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <!-- Q1 2025 -->
+                                        <div class="swiper-slide">
+                                            <div class="gt-testimonial-content">
+                                                <div class="gt-star"><strong>Q1 2025</strong></div>
+                                                <p>
+                                                    • QGD Governance Activation<br>
+                                                    • Snapshot voting & DAO formation<br>
+                                                    • Multichain (Polygon, Arbitrum)<br>
+                                                    • Remix-to-Earn incentives
+                                                </p>
+                                                <div class="gt-client-info">
+                                                    <h4>Phase 3</h4>
+                                                    <span>Governance & Ecosystem</span>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                        <!-- Q2 2025 -->
+                                        <div class="swiper-slide">
+                                            <div class="gt-testimonial-content">
+                                                <div class="gt-star"><strong>Q2 2025</strong></div>
+                                                <p>
+                                                    • Launchpad for dApps built on QGD<br>
+                                                    • AI Agent upgrades & enterprise toolkits<br>
+                                                    • Cross-project module integrations<br>
+                                                    • Creator grants and bounties
+                                                </p>
+                                                <div class="gt-client-info">
+                                                    <h4>Phase 4</h4>
+                                                    <span>Scale & Sustainability</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Swiper Nav -->
+                                <!-- <div class="array-buttons">
+                                    <button class="array-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                                    <button class="array-next"><i class="fa-solid fa-arrow-right"></i></button>
+                                </div> -->
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- GT News Section Start -->
+        <section class="gt-news-section-2 section-padding fix">
+            <div class="gt-left-shape">
+                <img src="assets/img/home-2/news/shape.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="gt-section-title-area mb-0">
+                    <div class="gt-section-title mb-0">
+                        <h6 class="wow fadeInUp"><img src="assets/img/fabi.png">U P D A T E S</h6>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color: #ccc;">
+                            QuantumGround News & Launch Highlights
+                        </h2>
+                    </div>
+                    
+                    <!-- <a href="https://x.com/qgdaispace" class="gt-theme-btn wow fadeInUp" data-wow-delay=".5s">
+                        <span class="shotfit-btn__text">FOLLOW Our X<i class="fa-regular fa-arrow-up-right"></i></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                        <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                    </a> -->
+                </div>
+        
+                <div class="row">
+                    <!-- Post 1 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="gt-news-card-item-2">
+                            <div class="gt-news-image">
+                                <img src="assets/img/home-2/news/news-1.jpg" alt="QuantumGround Launch">
+                                <span class="gt-post">02 July, 2025</span>
+                            </div>
+                            <div class="gt-news-content">
+                                <!-- <ul class="gt-news-post">
+                                    <li>By QuantumGround</li>
+                                    <li class="gt-style-2">🧠 Official Launch</li>
+                                </ul> -->
+                                <h3>
+                                    <a href="https://x.com/qgdaispace" target="_blank">QuantumGround is LIVE: Build Web3 With
+                                        Just a Prompt</a>
+                                </h3>
+                                <a href="https://x.com/qgdaispace" class="gt-link-btn" target="_blank">READ MORE <i
+                                        class="fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Post 2 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="gt-news-card-item-2">
+                            <div class="gt-news-image">
+                                <img src="assets/img/home-2/news/news-2.jpg" alt="Telegram Mini App">
+                                <span class="gt-post">28 June, 2025</span>
+                            </div>
+                            <div class="gt-news-content">
+                                <!-- <ul class="gt-news-post">
+                                    <li>By QuantumGround</li>
+                                    <li class="gt-style-2">🚀 Mini App</li>
+                                </ul> -->
+                                <h3>
+                                    <a href="https://x.com/qgdaispace" target="_blank">Telegram Mini App Now Live — Build dApps
+                                        Inside Chat</a>
+                                </h3>
+                                <a href="https://x.com/qgdaispace" class="gt-link-btn" target="_blank">READ MORE <i
+                                        class="fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Post 3 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="gt-news-card-item-2">
+                            <div class="gt-news-image">
+                                <img src="assets/img/home-2/news/news-3.jpg" alt="Ground Module System">
+                                <span class="gt-post">20 June, 2025</span>
+                            </div>
+                            <div class="gt-news-content">
+                                <!-- <ul class="gt-news-post">
+                                    <li>By QuantumGround</li>
+                                    <li class="gt-style-2">🔧 Modules</li>
+                                </ul> -->
+                                <h3>
+                                    <a href="https://x.com/qgdaispace" target="_blank">Ground Modules Launched:
+                                        Smart Contract System</a>
+                                </h3>
+                                <a href="https://x.com/qgdaispace" class="gt-link-btn" target="_blank">READ MORE <i
+                                        class="fa-regular fa-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <footer class="gt-footer-section-2 fix bg-cover" style="background-image: url(assets/img/home-2/footer-bg.jpg);">
+            <div class="container">
+                <div class="gt-footer-widget-wrapper-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="gt-footer-logo wow fadeInUp" data-wow-delay=".3s">
+                                    <span></span>
+                                    <a href="index.html" class="footer-logo">
+                                        <img src="assets/img/home-1/logo/black-logo.png" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="gt-footer-newsletter-wrapper">
+                                    <div class="gt-footer-social-item wow fadeInUp" data-wow-delay=".3s">
+                                        <h3>Follow  On Social</h3>
+                                        <ul class="gt-social-icon d-flex justify-content-center flex-wrap gap-3">
+                            <li><a href="https://x.com/qgdaispace" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                            <li><a href="https://t.me/qgdcrew" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                            <li><a href="https://quantumground.gitbook.io/quantumground-docs/" target="_blank"><i class="fa-regular fa-file-lines"></i> Whitepaper</a></li>
+                            <li><a href="https://bscscan.com/token/0x0000000000000000000000000000000000000000" target="_blank"><i class="fa-solid fa-link"></i> BscScan</a></li>
+                        </ul>
+                                    </div>
+                                    <form action="#" class="wow fadeInUp" data-wow-delay=".5s">
+                                        
+                                        <div class="form-clt">
+                                            <input type="text" name="tg" id="tg" placeholder="Enter your TG hadle here">
+                                            <button type="submit" class="gt-theme-btn">
+                                                <span class="shotfit-btn__text">Launch Telegram App</span>
+                                                <span class="shotfit-btn__hover shotfit-btn__hover--1"></span>
+                                                <span class="shotfit-btn__hover shotfit-btn__hover--2"></span>
+                                                 <span class="shotfit-btn__hover shotfit-btn__hover--3"></span>
+                                                <span class="shotfit-btn__hover shotfit-btn__hover--4"></span>
+                                                <span class="shotfit-btn__hover shotfit-btn__hover--5"></span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gt-footer-bottom-2">
+                 <div class="container">
+                    <div class="gt-footer-wrapper-2">
+                        <p class="wow fadeInUp" data-wow-delay=".3s">Copyright© <span>QGD Foundation</span></p>
+                        <ul class="gt-footer-list wow fadeInUp" data-wow-delay=".5s">
+                            <li>
+                                 <a href="https://x.com/qgdaispace" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+               
+                            </li>
+                            <li>
+                                <a href="https://t.me/qgdcrew" target="_blank"><i class="fa-brands fa-telegram fa-xl"></i></a>
+                
+                            </li>
+                            <li>
+                                <a href="https://quantumground.gitbook.io/quantumground-docs/" target="_blank"><i class="fa-regular fa-file-lines fa-xl"></i></a>
+                
+                            </li>
+                            <li>
+                                <a href="https://bscscan.com/token/0x0000000000000000000000000000000000000000" target="_blank"><i class="fa-solid fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </footer>
+        
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< nice-selec Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Parallaxie Js >>-->
+        <script src="assets/js/parallaxie.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
